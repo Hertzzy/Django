@@ -1,7 +1,7 @@
 from django.shortcuts import render, redirect
 
 # IMPORT FORMS
-from usuarios.forms import LoginForms, CadastroForms
+from apps.usuarios.forms import LoginForms, CadastroForms
 
 # IMPORT TABELA
 from django.contrib.auth.models import User
